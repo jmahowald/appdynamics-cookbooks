@@ -106,8 +106,8 @@ resource "aws_instance" "appdynamics" {
               #thus we need to specify it here specifically
               "software_dir" = "/opt/appdynamics"
               "install" {
-                "url" = "http://repos.service.consul/external/controller_64bit_linux.sh"
-                "license_url" = "http://repos.service.consul/external/appdynamics.lic"
+                "url" = "http://repos.service.consul/tarballs/controller_64bit_linux.sh"
+                "license_url" = "http://repos.service.consul/tarballs/appdynamics.lic"
               }
             }
           }
